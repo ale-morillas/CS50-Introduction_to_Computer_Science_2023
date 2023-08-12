@@ -1,0 +1,19 @@
+1. Get key
+    1.1. Use Command-Line Argument
+    1.2. Only sigle command-line argument
+    1.3. Make sure argument contain only digit characters
+    1.4. Convert argument to a digit (atoi())
+
+2. Get plaintext
+    2.1. Use get_string()
+
+3. Encipher
+    3.1. Create a string named ciphertext
+    3.2. Check if the char is alphabetical
+    3.3. Check if the char is uppercase or lowercase
+    3.4. If is uppercase, substract 65 (97 if it is lowercase) to take it to its alphabetical index
+    3.5. Use the formula ci = (pi + k) % 26, to find the new cipher letter.
+    3.6. Add 65 to ci if its uppercase (97 if its lowercase) to find the equivalent in ASCII
+    3.7. Assing that char to ciphertext
+
+4. Print ciphertext

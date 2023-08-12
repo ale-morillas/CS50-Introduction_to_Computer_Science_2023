@@ -1,0 +1,13 @@
+Pseudocode:
+
+1. Prompt user for height.
+2. The height must be greater or equal than 1 and less or equal than 8.
+    a. If height isn't in that range, go back to step 1.
+3. Iterate from 1 to height the rows.
+    a. Iterate from 1 to height the columns.
+    b. If row + column is less or equal to height.
+        1. Print a space.
+    c. Else.
+        1. Print a hash.
+    d. Print a new line.
+4. Go back to line 3.

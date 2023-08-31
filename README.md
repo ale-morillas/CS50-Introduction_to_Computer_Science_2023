@@ -117,6 +117,15 @@ Each problem set is placed in its respective folder. Below is the list of proble
    - Folder: [Problem Set 7](./week_7/pset_7/)
       - Solution: [Movies](./week_7/pset_7/movies/)
 
+**Week 8 - HTML, CSS, Javascript**
+   - Folder: [Lab 8](./week_8/lab_8)
+      - Solution: [Songs](./week_8/lab_8/trivia/)
+   - Folder: [Problem Set 8](./week_8/pset_8/)
+      - Solution: [Movies](./week_8/pset_8/homepage/)
+
+**Week 9 - SQL**
+   - Folder: [Lab 9](./week_9/lab_9)
+      - Solution: [Songs](./week_9/lab_9/birthdays/)
 
 Feel free to explore the problem sets, try solving them on your own, and then compare your solutions with the ones provided here.
 

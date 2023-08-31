@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+
+                <h3>What is the capital of Cuba?</h3>
+                <p id="status"></p>
+
+                <button id="incorrect">San Jose</button>
+                <button id="incorrect">Caracas</button>
+                <button id="incorrect">Los Santos</button>
+                <button id="correct">La Habana</button>
+
+                <script>
+                    let correct = document.querySelector('#correct');
+                    let incorrect = document.querySelectorAll('#incorrect');
+                    let status = document.querySelector('#status');
+
+                    correct.onclick = function() {
+                        correct.style.backgroundColor = 'green';
+                        status.innerHTML = "Correct!";
+                    };
+
+                    for (let i = 0; i < incorrect.length; i++) {
+                        incorrect[i].onclick = function() {
+                            incorrect[i].style.backgroundColor = 'red';
+                            status.innerHTML = "Incorrect!";
+                        };
+                    }
+                </script>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+
+                <h3>In which country is the city of Pavia?</h3>
+                <p id="status2"></p>
+
+                <form>
+                    <input type="text" id="value">
+                    <button>Check Answer</button>
+
+                    <script>
+                        document.addEventListener('submit', function() {
+                            let status2 = document.querySelector('#status2');
+                            let value = document.querySelector('#value');
+
+                            if (value.value == 'Italy' || value.value == 'italy' || value.value == 'ITALY') {
+                                value.style.backgroundColor = 'green';
+                                status2.innerHTML = 'Correct!';
+                            }
+                            else {
+                                value.style.backgroundColor = 'red';
+                                status2.innerHTML = 'Incorrect!';
+                            }
+                        });
+                    </script>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

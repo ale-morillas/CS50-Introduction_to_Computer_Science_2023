@@ -1,0 +1,100 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans:wght@300&display=swap');
+
+
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+.nav-link{
+    font-family:'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+
+    margin: 10px;
+}
+
+#welcome{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+}
+
+.table-head{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#symbol{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 900;
+}
+
+.data{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 900;
+}
+
+#remaining{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#total{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#add_cash{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.header{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 40px;
+}
+
+.data-row{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+}
+
+.data-row-head{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}

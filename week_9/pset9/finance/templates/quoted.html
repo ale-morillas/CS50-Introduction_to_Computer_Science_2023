@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <h3 class="header">Quote for a Stock</h3>
+    <form action="/quote" method="post">
+        <div class="form-group">
+            <input autofocus class="form-control" name="symbol" placeholder="Stock symbol" type="text">
+        </div>
+        <button style='width: 200px' class=" form-group btn btn-primary" type="submit">Look Up</button>
+        {% if invalid %}
+        <div class="alert alert-warning" role="alert" > The input symbol {{ symbol }} is invalid </div>
+        {% endif %}
+    </form>
+
+    <table style='margin-top: 30px' class="table table-striped table-light">
+        <thead>
+            <tr class="table-head">
+                <td scope="col">Symbol</td>
+                <td scope="col">Company Name</td>
+                <td scope="col">Price (USD)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" class="data-row-head">{{ symbol }}</th>
+                <td class="data-row">{{ name }}</td>
+                <td class="data-row">{{ price }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

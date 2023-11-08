@@ -126,6 +126,8 @@ Each problem set is placed in its respective folder. Below is the list of proble
 **Week 9 - SQL**
    - Folder: [Lab 9](./week_9/lab_9)
       - Solution: [Songs](./week_9/lab_9/birthdays/)
+   - Folder: [Problem Set 9](./week_9/pset_9/)
+      - Solution: [Finance](./week_9/pset_9/finance/)
 
 Feel free to explore the problem sets, try solving them on your own, and then compare your solutions with the ones provided here.
 
